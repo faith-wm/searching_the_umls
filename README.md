@@ -2,4 +2,4 @@
 
 Python code to search the UMLS.
 
-See https://documentation.uts.nlm.nih.gov/rest/search/ for search options.
+See https://documentation.uts.nlm.nih.gov/rest/search/ for the different search options.
