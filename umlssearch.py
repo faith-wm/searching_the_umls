@@ -1,5 +1,3 @@
-# https://documentation.uts.nlm.nih.gov/rest/search/
-
 import requests
 
 # Replace 'YOUR_APIKEY' with your actual UMLS API key
@@ -16,6 +14,7 @@ source = 'C0018051' # the cui you want to search
 #use this if searching by cui code
 url =   f"https://uts-ws.nlm.nih.gov/rest/content/current/CUI/{source}/definitions?apiKey={UMLS_API_KEY}"
 
+# check https://documentation.uts.nlm.nih.gov/rest/search/ for more search options
 
 def search_cui(url):
     response = requests.get(url)
