@@ -1,4 +1,4 @@
-# searching_the_umls
+# Python code for searching the UMLS
 
 Python code to search the UMLS.
 
